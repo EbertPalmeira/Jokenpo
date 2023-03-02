@@ -1,0 +1,96 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+.App {
+  background: #483d8b;
+  width: 400px;
+  margin: 0 auto;
+  padding: 40px;
+}
+.jokenpo {
+  text-align: center;
+}
+.jokenpo input {
+  padding: 10px 40px;
+  border-radius: 20px;
+  text-align: center;
+  margin-top: 10px;
+  border: none;
+}
+.jokenpo button {
+  padding: 10px 100px;
+  margin-top: 20px;
+  cursor: pointer;
+  border-radius: 20px;
+  margin-bottom: 10px;
+  border: none;
+  transition: 0.5s;
+}
+.jokenpo button:hover {
+  background: gray;
+}
+.placar-div {
+  text-align: center;
+}
+.placar {
+  display: flex;
+  margin-top: 15px;
+  text-align: center;
+  padding-left: 50px;
+  justify-content: center;
+  gap: 80px;
+}
+.escolha {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+  gap: 170px;
+  font-size: 2.5em;
+}
+.regras {
+  text-align: center;
+}
+.inicio {
+  text-align: center;
+  padding-top: 40px;
+}
+.jogo {
+  display: flex;
+  padding-top: 30px;
+  justify-content: center;
+  gap: 30px;
+}
+.jogo button {
+  cursor: pointer;
+  padding: 10px 25px;
+  background: #fff;
+  border: none;
+  font-size: 2em;
+  border-radius: 40px;
+  transition: 0.5s;
+}
+.jogo button:hover {
+  background: gray;
+}
+@media (max-width: 400px) {
+  .App {
+    width: 350px;
+    margin: 0 auto;
+  }
+  .placar {
+    padding-left: 40px;
+    justify-content: center;
+    gap: 60px;
+  }
+}
