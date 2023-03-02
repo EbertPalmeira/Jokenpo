@@ -93,4 +93,10 @@ body {
     justify-content: center;
     gap: 60px;
   }
+  .jokenpo input {
+    padding: 10px 5px;
+  }
+  .jokenpo button {
+    padding: 10px 50px;
+  }
 }
