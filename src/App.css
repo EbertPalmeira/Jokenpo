@@ -47,9 +47,9 @@ body {
   display: flex;
   margin-top: 15px;
   text-align: center;
-  padding-left: 30px;
+  padding-left: 20px;
   justify-content: center;
-  gap: 80px;
+  gap: 60px;
 }
 .escolha {
   display: flex;
@@ -98,5 +98,12 @@ body {
   }
   .jokenpo button {
     padding: 10px 50px;
+  }
+}
+@media (max-width: 370px) {
+  .placar {
+    padding-left: 40px;
+    justify-content: center;
+    gap: 50px;
   }
 }
